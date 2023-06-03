@@ -12,15 +12,13 @@
 
 /* #2A363b */
 :root{
-    --color-bg:white;
-    --color-bg-variant:#eb4A5f;
-    --color-primary:#eb4A5f;
-    --color-primary-variant:black;
-    --color-white:black;
-    --color-light:black; 
-
+    --color-bg:#1f1f38;
+    --color-bg-variant:#2c2c6c;
+    --color-primary:#4db5ff;
+    --color-primary-variant:rgba(77,181,255,0.4);
+    --color-white:#fff;
+    --color-light:rgba(255,255,255,0.6); 
     --transition:all 400ms ease ;
-
     --container-width-lg:75%;
     --container-width-md:86%;
     --container-width-sm:90%;
@@ -36,9 +34,17 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--color-bg);
-    color:var(--color-white);
+    /* background-color: var(--color-bg);
+    background-image: url(../src/assests/bg-texture.png);
+    color:var(--color-white); */
+
+    background-color: black;
+    color:white;
+
+    
+
     line-height: 1.7;
+    
 }
 
 .container{
@@ -46,7 +52,7 @@ body{
     margin:0 auto;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5{
     font-weight: 500;
 }
 
@@ -78,7 +84,7 @@ a{
 }
 
 a:hover{
-    color:black;
+    color:var(--color-white);
 }
 
 .btn{

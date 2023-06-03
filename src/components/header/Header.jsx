@@ -27,7 +27,11 @@ function Header() {
           speed={50}
           cursor={true}
           repeat={Infinity}
-          style={{ fontSize: '25px', display: 'inline-block' ,color:"crimson" }}
+          style={{
+            fontSize: "25px",
+            display: "inline-block",
+            color: "rgba(255,255,255,0.6)",
+          }}
         />
         <CTA />
         <HeaderSocails />

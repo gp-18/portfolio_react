@@ -22,7 +22,7 @@ const Servicess = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Websites</h3>
+            <h3>Front End Web Development</h3>
           </div>
           <ul className='service__list'>
             <li><BsCheck className='service__list-icon'/> Static and Dynamic Websites</li>
