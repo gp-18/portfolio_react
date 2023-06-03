@@ -62,6 +62,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
+<<<<<<< HEAD
         <form ref={form} onSubmit={sendEmail}>
           <input 
             type="text"
@@ -80,10 +81,24 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">
             Send Message
           </button>
+=======
+        <form action="">
+          <input type="text" name ="name" placeholder='Your Full Name' required/> 
+          <input type="email" name ="email" placeholder='Your Email' required/>
+          <textarea name='message' rows={7} placeholder='Your Message' required/> 
+          <button type="submit" className='btn btn-primary'>Send Message</button>
+>>>>>>> a18af37e66387b327c049e0ff268c1bbea2bdf70
         </form>
       </div>
     </section>
+<<<<<<< HEAD
   );
 };
+=======
+
+  
+  )
+}
+>>>>>>> a18af37e66387b327c049e0ff268c1bbea2bdf70
 
 export default Contact;
