@@ -60,7 +60,7 @@ header{
 
 
 @media screen and (max-width:1024px) {
-   .header{
+   header{
     height: 68vh;
    }
    .header__container .me{
@@ -69,7 +69,7 @@ header{
 }
 
 @media screen and (max-width:600px) {
-   .header{
+   header{
     height: 100vh;
    }
 
@@ -79,5 +79,9 @@ header{
 
    .header__container .me{
     left:3%;
+    height: 72%;
    }
+
+   
+   
 }

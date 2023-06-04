@@ -36,7 +36,7 @@ const About = () => {
         I'm Parth Gupta, A student at Government Engineering College, Modasa, and I'm now enrolled in my pre-final year of the B.Tech. CSE programme. I became interested in computer science during my school years. I'm curious about using C++ to solve problems. I have a lot of passion for app and website development.I'm interested in learning more about big data, Artificial Intelligence, and Machine Learning. I'm a student who also wants to expand on the fundamentals of computer science. In college, I participated in several coding and technical challenges, hackathons, and open source projects.
         </p>
 
-        <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+        <a href='#contact' className='btn btn-primary'><span>Let's Talk</span></a>
       </div>
     </div>
    </section>
